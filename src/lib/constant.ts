@@ -1,3 +1,10 @@
+import Category from '@/src/components/icons/category'
+import Logs from '@/src/components/icons/clipboard'
+import Templates from '@/src/components/icons/cloud_download'
+import Home from '@/src/components/icons/home'
+import Payment from '@/src/components/icons/payment'
+import Settings from '@/src/components/icons/settings'
+import Workflows from '@/src/components/icons/workflows'
 export const clients = [...new Array(10)].map((client, index) => ({
     href: `/${index + 1}.png`,
   }))
@@ -82,15 +89,15 @@ export const clients = [...new Array(10)].map((client, index) => ({
     },
   ]
   
-//   export const menuOptions = [
-//     { name: 'Dashboard', Component: Home, href: '/dashboard' },
-//     { name: 'Workflows', Component: Workflows, href: '/workflows' },
-//     { name: 'Settings', Component: Settings, href: '/settings' },
-//     { name: 'Connections', Component: Category, href: '/connections' },
-//     { name: 'Billing', Component: Payment, href: '/billing' },
-//     { name: 'Templates', Component: Templates, href: '/templates' },
-//     { name: 'Logs', Component: Logs, href: '/logs' },
-//   ]
+  export const menuOptions = [
+    { name: 'Dashboard', Component: Home, href: '/dashboard' },
+    { name: 'Workflows', Component: Workflows, href: '/workflows' },
+    { name: 'Settings', Component: Settings, href: '/settings' },
+    { name: 'Connections', Component: Category, href: '/connections' },
+    { name: 'Billing', Component: Payment, href: '/billing' },
+    { name: 'Templates', Component: Templates, href: '/templates' },
+    { name: 'Logs', Component: Logs, href: '/logs' },
+  ]
   
 //   export const EditorCanvasDefaultCardTypes = {
 //     Email: { description: 'Send and email to a user', type: 'Action' },
